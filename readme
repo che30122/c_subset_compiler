@@ -1,0 +1,22 @@
+############################################################################
+#you need antlr-3.5.2-complete.jar and jasmin-2.4 to do the operation below#
+############################################################################
+
+clean:
+	make clean
+how to compile:
+	make
+how to execute:
+	java -cp antlr-3.5.2-complete.jar:. myCompiler_test <inputFile> > <outputFile>
+there are three file to choose input.c,input_1.c,input_2.c
+
+ 	java -jar ./jasmin-2.4/jasmin.jar <outputFile>
+	
+	java myResult
+
+the inputFile must choose .c file ,and the outputfile must choose .j file
+ 
+by:
+chen che 405410121 
+email: che30122@gmail.com
+other feature describe in WORD file 
